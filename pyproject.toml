@@ -5,7 +5,7 @@ description = ""
 authors = ["Richie Cahill <Richie@tmmworkshop.com>, Alice Huston <aliceghuston@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "rad_dev" }]
+# packages = [{ include = "rad_dev" }]
 
 [tool.poetry.dependencies]
 python = ">3.9,<4"
