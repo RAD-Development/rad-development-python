@@ -2,9 +2,10 @@
 name = "rad_development_python"
 version = "0.1.0"
 description = ""
-authors = ["Richie Cahill <Richie@tmmworkshop.com>"]
+authors = ["Richie Cahill <Richie@tmmworkshop.com>, Alice Huston <aliceghuston@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [{ include = "rad_dev" }]
 
 [tool.poetry.dependencies]
 python = ">3.9"
