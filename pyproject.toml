@@ -9,6 +9,7 @@ packages = [{ include = "rad_dev" }]
 
 [tool.poetry.dependencies]
 python = ">3.9,<4"
+poetry = "^1.8.3"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "*"
@@ -16,7 +17,6 @@ pytest = "*"
 pytest-cov = "*"
 pytest-mock = "*"
 ruff = "*"
-poetry = "^1.8.3"
 
 [build-system]
 requires = ["poetry-core"]
