@@ -57,6 +57,7 @@
             # avoids needing to build them from source. technically a security risk
             polars = prev.polars.override { preferWheel = true; };
             ruff = prev.ruff.override { preferWheel = true; };
+            mypy = prev.mypy.override { preferWheel = true; };
             greenlet = prev.greenlet.override { preferWheel = true; };
             sqlalchemy = prev.sqlalchemy.override { preferWheel = true; };
           }
